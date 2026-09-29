@@ -1,3 +1,3 @@
-def get_weather_data(): 
-    """Fetch weather data for the pipeline.""" 
-    return {} 
+def process_weather_data(weather_data): 
+    """Process weather data before sending it to AWS.""" 
+    return weather_data 
